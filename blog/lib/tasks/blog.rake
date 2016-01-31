@@ -1,9 +1,5 @@
-namespace :blog do
-  desc "TODO"
-  task :my_task1 => :environment do
-  end
-
-  desc "TODO"
-  task :my_task2 => :environment do
-  end
+task :my_task do
+  puts "hi!"
 end
+
+task :default => [:spec, :my_task]
