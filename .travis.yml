@@ -1,7 +1,8 @@
+
 language: ruby
+sudo: false
+cache: bundler
 rvm:
   - 2.3.0
-gem:
-  - 2.5.1
 notifications:
   slack: acme-dev-team:8Odc2VpRVcNWvXpUjX00F9UJ
