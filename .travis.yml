@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+  - 2.3.0
+notifications:
+  slack: acme-dev-team:8Odc2VpRVcNWvXpUjX00F9UJ
